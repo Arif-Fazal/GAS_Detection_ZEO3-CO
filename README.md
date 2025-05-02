@@ -47,13 +47,13 @@ For detailed specifications and formula explanations, refer to the official sens
 
 ## Notes
 
-- The **analog zero voltage (Vout₀)** and **test voltage (Vout₁)** are typically provided in the inspection report that comes with the sensor module. These values are used to calculate the gas concentration for the specific target gas based on the sensor type.
+- The **analog zero voltage (Vout0)** and **test voltage (Vout1)** are typically provided in the inspection report that comes with the sensor module. These values are used to calculate the gas concentration for the specific target gas based on the sensor type.
 
-- If you are using a different sensor variant, such as **ZEO-SO₂**, the following values should be adjusted based on the corresponding datasheet:
-  - Zero voltage (Vout₀)
-  - Test voltage (Vout₁)
-  - Calibration ppm at Vout₁ (ppm₁)
-  - Maximum detection range (Max ppm)
+- If you are using a different sensor variant, such as **ZEO-SO2**, the following values should be adjusted based on the corresponding datasheet:
+  - Zero voltage (Vout0)
+  - Test voltage (Vout1)
+  - Calibration ppm at Vout1 (ppm1)
+  - Maximum detection range (Max PPM)
 
 - For modifications related to **UART output**, please refer to the detailed instructions provided in the sensor's datasheet.
 
